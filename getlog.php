@@ -1,5 +1,6 @@
 <?php
 include 'db_connection.php';
+
 $response = [];
 session_start();
 
