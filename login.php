@@ -10,8 +10,8 @@
     <body>
 
         <div class="navbar">
-            <a>Nickname 1: prevedello Password: Password1234</a>
-            <a>Nickname 2: scopacasa Password: 1234Password</a>
+            <a>Nickname 1: Prevedello Password: password1234</a>
+            <a>Nickname 2: Scopacasa Password: 1234password</a>
         </div>
 
         <h1>Login</h1>
