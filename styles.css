@@ -1,0 +1,63 @@
+/* Apply a default font family and size to the entire page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Center the main heading */
+h1 {
+  text-align: center;
+}
+
+/* Style the paragraphs */
+p {
+  margin: 10px 0;
+}
+
+/* Style the form */
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the form fields */
+form input[type="text"],
+form input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the form button */
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the page footer */
+footer {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+/* Add some responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
