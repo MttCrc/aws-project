@@ -15,7 +15,6 @@
         </div>
 
         <h1>Login</h1>
-
         <form action="getlog.php" method="post">
             <label for="nickname">nickname</label><br>
             <input type="text" name="nickname" maxlength="100" required/><br>
