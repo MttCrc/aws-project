@@ -1,4 +1,5 @@
 <?php
+// Effettua la connessione al db
 $ip = "localhost";
 $db_name = "croce_progetto_cloud_computing";
 $password = "";
