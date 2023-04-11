@@ -1,9 +1,9 @@
 $(document).ready(()=> {
-    $("#login-form").submit((event)=> {
+    $("#login").submit((event)=> {
      $.ajax({
       type: "POST",
       url: "getlog.php",
-      data: { nickname: $("#nickname-input").val(), password: $("#password-input").val() },
+      data: { nickname: $("#nickname").val(), password: $("#password").val() },
       dataType: "json",
       encode: true,
       success: (response)=>{
