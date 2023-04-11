@@ -7,7 +7,13 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
 
-    <body style="text-align: center">
+    <body>
+
+        <div class="navbar">
+            <a>Nickname 1: Prevedello Password: Password1234</a>
+            <a>Nickname 2: Scopacasa Password: 1234Password</a>
+        </div>
+
         <h1>Login</h1>
 
         <form action="getlog.php" method="post">
