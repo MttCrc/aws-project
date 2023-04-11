@@ -8,7 +8,7 @@ $connection = new mysqli($ip, $username, $password, $db_name);
 $response = [];
 
 if ($connection->connect_error) {
-  $response['message'] = 'Connection failed';
+  $response['message'] = 'Connessione fallita';
   http_response_code(400);
   echo json_encode($response);
   die;
